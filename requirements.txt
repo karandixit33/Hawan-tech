@@ -1,0 +1,7 @@
+Django>=4.2,<5.0
+djangorestframework>=3.14.0
+psycopg2-binary  # If using PostgreSQL, remove if using SQLite
+django-environ  # For environment variable management
+djangorestframework-simplejwt  # JWT authentication (optional)
+drf-yasg  # API documentation (optional)
+gunicorn  # Production WSGI server (if deploying to Herok
