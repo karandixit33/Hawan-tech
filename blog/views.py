@@ -15,3 +15,5 @@ class BlogDetailView(generics.RetrieveDestroyAPIView):
     queryset = Blog.objects.all()
     serializer_class = BlogSerializer
     permission_classes = [IsAuthenticatedOrReadOnly]
+
+# new branch 
